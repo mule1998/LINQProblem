@@ -38,6 +38,7 @@ namespace LINQ_Project
                 new ProductReview(){ProductId = 24, UserID=4, Rating = 3, Review ="Good", isLike = true },
                 new ProductReview(){ProductId = 25, UserID=4, Rating = 5, Review ="Good",isLike = true },
                 };
+
             foreach (var list in productReviewList)
             {
                 Console.WriteLine("ProductID:-" + list.ProductId + " " + "UserID:" + list.UserID +
